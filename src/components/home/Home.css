@@ -1,0 +1,221 @@
+.hero {
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 4rem;
+    
+}
+
+.hero:before {
+    content: '';
+    width: 100%;  
+}
+.video{
+  position:absolute;
+  z-index:-1;
+  top:0;
+  left:0;
+  width:100%; 
+  height:80vh;
+  object-fit: cover;
+}
+
+.hero .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+}
+
+
+
+@media screen and (max-width: 940px) {
+    .hero {
+        height: 70vh;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .search input[type=text] {
+        width: 100%;
+    }
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .dd-button {
+    display: inline-block;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px 10px 20px;
+    background-image: linear-gradient(45deg, #070374 0%, #2d5ec7 100%);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dd-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  }
+  
+  .dd-button:hover {
+    background-color: #eeeeee;
+  }
+  
+  
+  .dd-input {
+    display: none;
+  }
+  
+  .dd-menu {
+    display: inline-block;
+    color: white;
+    border-radius: 50px;
+    background-image: linear-gradient(45deg, #070374 0%, #2d5ec7 100%);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dd-input + .dd-menu {
+    display: none;
+  } 
+  
+  .dd-input:checked + .dd-menu {
+    display: block;
+  } 
+  
+  .dd-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dd-menu li:hover {
+    background-color: #f6f6f6;
+  }
+  
+  .dd-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+  }
+  
+  .dd-menu li.divider{
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+  }
+
+
+.btn-container {
+  display: flex;
+  position: relative;
+  left: 125px;
+}
+
+
+ 
+ 
+.btn-container  a {
+  padding: 16px 74px;
+  /* background-image: linear-gradient(45deg, #05033e 0%, #4770c9 100%); */
+  border: none;
+  background:
+  linear-gradient(
+    to right,
+    rgb(1, 1, 55),
+    rgb(57, 64, 209)
+  );
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: .4s;
+  cursor: pointer;
+  position: relative;
+  top: 45px;
+}
+
+.btn1 {
+  color: rgb(255, 255, 255);
+  margin-right: 28px;
+  margin-left: 28px;
+    font-weight: bolder;
+}
+
+.btn-2 {
+  color: rgb(252, 251, 255);
+  margin-right: 28px;
+  margin-left: 28px;
+  font-weight: bolder;
+}
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+  cursor: pointer;
+}
+
+.arrows path {
+	stroke: #f9f9fc;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 3s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
