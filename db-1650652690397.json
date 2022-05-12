@@ -1,0 +1,33 @@
+{
+  "listings": [
+    {
+      "id": 1,
+      "image": [
+        "../../assets/exterior.jpeg",
+        "../../assets/bedroom11.jpeg",
+        "../../assets/bed2.jpeg",
+        "../../assets/kitchen1.jpeg",
+        "../../assets/bathroom11.jpeg"
+      ],
+      "address": "123 John St. Nantucket, MApsum",
+      "title": "House for Sale",
+      "price": "$19,677,000",
+      "bedrooms": 7,
+      "bathrooms": 8,
+      "squarefeet": "11,138/sqft",
+      "estpayment": "$16,596/mo",
+      "description": "A beautiful modern ocean front home with a full-size pool. Spacious and luxurious home located in Nantucket. Including three private offices, an au-pair suite, exercise room and a five hundred plus bottle Wine cellar are are but a few of the other touches that finish this one of a kind estate."
+    },
+    {
+      "id": 1,
+      "address": "123 John St. Nantucket, MApsum",
+      "title": "House for Sale",
+      "price": "$19,677,000",
+      "bedrooms": 7,
+      "bathrooms": 8,
+      "squarefeet": "11,138/sqft",
+      "estpayment": "$16,596/mo",
+      "description": "A beautiful modern ocean front home with a full-size pool. Spacious and luxurious home located in Nantucket. Including three private offices, an au-pair suite, exercise room and a five hundred plus bottle Wine cellar are are but a few of the other touches that finish this one of a kind estate."
+    }
+  ]
+}
