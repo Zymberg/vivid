@@ -1,0 +1,47 @@
+{
+  "favorites": [
+    {
+      "address": "112 E 74th St #S, New York, NY ",
+      "bedrooms": "4",
+      "bathrooms": "5",
+      "description": "This expansive home with a gorgeous wraparound terrace is the thing that New York City dreams are made of and will satisfy those with the most discerning eye as it has undergone a meticulous and loving, full no-expense-spared renovation.",
+      "image": "https://photos.zillowstatic.com/fp/c1dd6d5186ba546fa4105761ddf8f8a0-uncropped_scaled_within_1536_1152.webp",
+      "title": "Rarely available pristine Upper East Side Duplex Penthouse awaits!",
+      "price": "9,150,000",
+      "type": "Apartment",
+      "squareFeet": "1,835",
+      "id": 5,
+      "user": 100
+    },
+    {
+      "image": "https://media.vrbo.com/lodging/34000000/33650000/33645800/33645792/3603e7fb.c10.jpg",
+      "address": "1667 Rising Glen Rd, Los Angeles, CA",
+      "squareFeet": "4,535",
+      "price": "8,897,902",
+      "bedrooms": "4",
+      "bathrooms": "4",
+      "description": "The heart of this 4,500 sq ft home is a great room with light oak flooring. A double-sided stone fireplace forms the centre of the living area, which flows out to a spacious formal dining room on one side and on the other, a kitchen with a central island, a breakfast table, an informal lounge and a bar with a passthrough window to the pool deck. Floor-to-ceiling glass walls encase all of these rooms, as well as the master bedroom suite, which directly faces the pool. The other three bedrooms are all en-suite and located along the other side of the home.",
+      "id": 6
+    },
+    {
+      "image": "https://photos.zillowstatic.com/fp/5faa68ef1699d77aee614ade8d493fe9-uncropped_scaled_within_1536_1152.webp",
+      "address": "1660 N Hudson Ave APT 3A, Chicago, IL",
+      "squareFeet": "1,350",
+      "price": "925,300",
+      "bedrooms": "3",
+      "bathrooms": "3",
+      "description": "This boutique Landmark building is nestled on a quiet street surrounded with exceptional views and secluded courtyard. This innovative building coupled with a classic exterior and contemporary interior, offers a newly renovated, exquisite lobby and remarkable common areas. ",
+      "id": 7
+    },
+    {
+      "image": "https://photos.zillowstatic.com/fp/ac22f16ce338b7bc3f9f5eaae0b83209-uncropped_scaled_within_1536_1152.webp",
+      "address": "421 Hudson St APT M2, New York, NY",
+      "squareFeet": "1,502",
+      "price": "4,450,000",
+      "bedrooms": "2",
+      "bathrooms": "3",
+      "description": "Meander through the gorgeous landscaped mews to arrive at your exclusive entrance. Inside, 1,502 square feet of gleaming modern living spaces stretch across two levels highlighted by hardwood floors, magnificent art walls and designer lighting. The sumptuous double-height great room makes a dramatic first impression with 17-foot-tall ceilings, a wall of floating shelves, and massive floor-to-ceiling windows",
+      "id": 8
+    }
+  ]
+}
