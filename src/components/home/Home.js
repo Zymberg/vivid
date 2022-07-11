@@ -1,5 +1,5 @@
 import React from "react";
-import Video from "../../assets/video.mov";
+import Video from "../../assets/video.mp4";
 
 import "./Home.css";
 
